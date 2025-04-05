@@ -20,5 +20,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name='home'),
+     
+    path('predict_api/', views.predict_api, name='predict_api'),
 ]
